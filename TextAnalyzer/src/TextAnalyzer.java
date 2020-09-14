@@ -58,7 +58,7 @@ class ValueComparator implements Comparator<String> {
     Map<String, Integer> words;
 
     public ValueComparator(Map<String, Integer> words) {
-        this.words = words;
+        this.words = words; 
     }
 
     // Received two (key/value) arguments and compares both
